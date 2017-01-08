@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37B28CD81E20781B00449936 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B28CD71E20781B00449936 /* PreviewViewController.swift */; };
+		37B28CDA1E20782900449936 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B28CD91E20782900449936 /* WelcomeViewController.swift */; };
+		37B28CDC1E20783D00449936 /* GifEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B28CDB1E20783D00449936 /* GifEditorViewController.swift */; };
+		37B28CDE1E2078E900449936 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B28CDD1E2078E900449936 /* UIViewController.swift */; };
+		37B28CE11E20828500449936 /* UIImage+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B28CE01E20828500449936 /* UIImage+GIF.swift */; };
+		37B28CE41E212F3700449936 /* Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B28CE31E212F3700449936 /* Gif.swift */; };
+		37B28CE61E21B5B800449936 /* SavedGifsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B28CE51E21B5B800449936 /* SavedGifsViewController.swift */; };
+		37B28CE81E21B87700449936 /* GifCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B28CE71E21B87700449936 /* GifCell.swift */; };
+		37B28CEB1E21E83B00449936 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B28CEA1E21E83B00449936 /* DetailViewController.swift */; };
 		A93B3B081D2D3F7900BE1662 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A93B3B041D2D3F7900BE1662 /* LaunchScreen.xib */; };
 		A93B3B091D2D3F7900BE1662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93B3B061D2D3F7900BE1662 /* Main.storyboard */; };
 		EDDFC4DC1CE261A600A586CA /* tinaFeyHiFive.gif in Resources */ = {isa = PBXBuildFile; fileRef = EDDFC4DB1CE261A600A586CA /* tinaFeyHiFive.gif */; };
@@ -19,6 +28,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37B28CD71E20781B00449936 /* PreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreviewViewController.swift; path = Controllers/PreviewViewController.swift; sourceTree = "<group>"; };
+		37B28CD91E20782900449936 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = Controllers/WelcomeViewController.swift; sourceTree = "<group>"; };
+		37B28CDB1E20783D00449936 /* GifEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GifEditorViewController.swift; path = Controllers/GifEditorViewController.swift; sourceTree = "<group>"; };
+		37B28CDD1E2078E900449936 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewController.swift; path = Extensions/UIViewController.swift; sourceTree = "<group>"; };
+		37B28CE01E20828500449936 /* UIImage+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+GIF.swift"; sourceTree = "<group>"; };
+		37B28CE31E212F3700449936 /* Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Gif.swift; path = Model/Gif.swift; sourceTree = "<group>"; };
+		37B28CE51E21B5B800449936 /* SavedGifsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SavedGifsViewController.swift; path = Controllers/SavedGifsViewController.swift; sourceTree = "<group>"; };
+		37B28CE71E21B87700449936 /* GifCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GifCell.swift; path = Views/GifCell.swift; sourceTree = "<group>"; };
+		37B28CEA1E21E83B00449936 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = Controllers/DetailViewController.swift; sourceTree = "<group>"; };
 		A93B3B051D2D3F7900BE1662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A93B3B071D2D3F7900BE1662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDDFC4DB1CE261A600A586CA /* tinaFeyHiFive.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tinaFeyHiFive.gif; sourceTree = "<group>"; };
@@ -43,6 +61,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37B28CCC1E20775A00449936 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				37B28CD71E20781B00449936 /* PreviewViewController.swift */,
+				37B28CD91E20782900449936 /* WelcomeViewController.swift */,
+				37B28CDB1E20783D00449936 /* GifEditorViewController.swift */,
+				37B28CE51E21B5B800449936 /* SavedGifsViewController.swift */,
+				37B28CEA1E21E83B00449936 /* DetailViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		37B28CDF1E20825C00449936 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				37B28CDD1E2078E900449936 /* UIViewController.swift */,
+				37B28CE01E20828500449936 /* UIImage+GIF.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		37B28CE21E212F2900449936 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				37B28CE31E212F3700449936 /* Gif.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		37B28CE91E21B87D00449936 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				37B28CE71E21B87700449936 /* GifCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		A94CC3D61D21C84C00DC758E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +137,10 @@
 		EDFAA8EB1CDA99A500D2CB08 /* GifMaker_Swift_Template */ = {
 			isa = PBXGroup;
 			children = (
+				37B28CE91E21B87D00449936 /* Views */,
+				37B28CE21E212F2900449936 /* Models */,
+				37B28CDF1E20825C00449936 /* Extensions */,
+				37B28CCC1E20775A00449936 /* Controllers */,
 				EDFAA8EC1CDA99A500D2CB08 /* AppDelegate.swift */,
 				A94CC3D71D21C85A00DC758E /* Assets */,
 				A94CC3D61D21C84C00DC758E /* Supporting Files */,
@@ -132,7 +191,8 @@
 				TargetAttributes = {
 					EDFAA8E81CDA99A500D2CB08 = {
 						CreatedOnToolsVersion = 7.3;
-						LastSwiftMigration = 0800;
+						DevelopmentTeam = 9DDBF23Y4C;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -174,10 +234,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37B28CEB1E21E83B00449936 /* DetailViewController.swift in Sources */,
 				EDFAA9201CDA9C3100D2CB08 /* Regift.swift in Sources */,
+				37B28CE11E20828500449936 /* UIImage+GIF.swift in Sources */,
+				37B28CE81E21B87700449936 /* GifCell.swift in Sources */,
+				37B28CE61E21B5B800449936 /* SavedGifsViewController.swift in Sources */,
 				EDFAA9211CDA9C3100D2CB08 /* RegiftCaption.swift in Sources */,
 				EDFAA8ED1CDA99A500D2CB08 /* AppDelegate.swift in Sources */,
+				37B28CE41E212F3700449936 /* Gif.swift in Sources */,
+				37B28CDA1E20782900449936 /* WelcomeViewController.swift in Sources */,
+				37B28CD81E20781B00449936 /* PreviewViewController.swift in Sources */,
 				EDFAA91F1CDA9C3100D2CB08 /* AVAssetImageGeneratorTimePoints.swift in Sources */,
+				37B28CDE1E2078E900449936 /* UIViewController.swift in Sources */,
+				37B28CDC1E20783D00449936 /* GifEditorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,11 +364,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 9DDBF23Y4C;
 				INFOPLIST_FILE = GifMaker_Swift_Template/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Udacity.GifMaker-Swift-Template";
+				PRODUCT_BUNDLE_IDENTIFIER = "Udacity.GifMaker-Swift-Template2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 2.3;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -307,11 +380,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 9DDBF23Y4C;
 				INFOPLIST_FILE = GifMaker_Swift_Template/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Udacity.GifMaker-Swift-Template";
+				PRODUCT_BUNDLE_IDENTIFIER = "Udacity.GifMaker-Swift-Template2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
